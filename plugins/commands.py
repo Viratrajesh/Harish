@@ -76,8 +76,8 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton("Channel 🚀", url=f"https://t.me/CineBaseMain"),
-            InlineKeyboardButton("Group 🔗", url=f"https://t.me/+uJtOD8qeQF45NDg1")
+            InlineKeyboardButton("Channel 🚀", url=f"https://t.me/Askmovies4"),
+            InlineKeyboardButton("Group 🔗", url=f"https://t.me/Askmovieslink1")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -102,8 +102,8 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton("Channel 🚀", url=f"https://t.me/CineBaseMain"),
-            InlineKeyboardButton("Group 🔗", url=f"https://t.me/+uJtOD8qeQF45NDg1")
+            InlineKeyboardButton("Channel 🚀", url=f"https://t.me/Askmovies4"),
+            InlineKeyboardButton("Group 🔗", url=f"https://t.me/Adkmovieslink1")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(

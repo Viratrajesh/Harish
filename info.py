@@ -21,10 +21,10 @@ def is_enabled(value, default):
 API_ID = int(environ.get('API_ID', '25788995'))
 API_HASH = environ.get('API_HASH', '6ea2cf0f897d1130203511c6bea81833')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8056543306:AAEr3axOugbjNl_4u514pJPNzr31DKj1En8')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6049194292  5371238852').split()]
-USERNAME = environ.get('USERNAME', 'https://telegram.me/Harishmerwin')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5371238852').split()]
+USERNAME = environ.get('USERNAME', 'https://telegram.me/Rajesh18x')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003047365372'))
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003076777979').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rajesh:Rajeah@rajesh.4m2jrxj.mongodb.net/?retryWrites=true&w=majority&appName=Rajesh")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Harish:Harish18x@cluster0.ygexufm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rahul")
@@ -38,18 +38,18 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003090126838'))
 URL = environ.get('URL', '')
 
 # verify system vars
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002983190657'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/+gU8WKzfDasNlOWJl")
-TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/+gU8WKzfDasNlOWJl")
-TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/+gU8WKzfDasNlOWJl")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/tutoria01ask")
+TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/tutorial 01ask")
+TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/tutoria01ask")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "f62e0b3d00076a2cfadf619e6d2915ff64c10ed3")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "papajiurl.com")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "f62e0b3d00076a2cfadf619e6d2915ff64c10ed3")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "papajiurl.com")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f62e0b3d00076a2cfadf619e6d2915ff64c10ed3")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "papajiurl.com")
+SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 
@@ -67,9 +67,9 @@ MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', False)
-FILE_CAPTION = """<b>🎬 <a href="https://t.me/Cinebasemain">{file_name}</a></b>  
+FILE_CAPTION = """<b>🎬 <a href="https://t.me/Askmovieslink1">{file_name}</a></b>  
 
-<b>Join ~ @CinebaseMain🚀</b>
+<b>Join ~ @Askmovies4🚀</b>
 """
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
